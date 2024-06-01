@@ -4,4 +4,4 @@ Create high level readme file which basically describe the functionality of our 
 
 Make new folder for backend init npm here, install express and jwt here, write express boilerplate code inside index.js file with express.json middleware.
 
-ideally next step will be zod for validation
+Ideally next step will be zod for validation. For this, i zod, make zod schema and parse it using try catch, and export it
