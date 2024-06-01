@@ -1,0 +1,6 @@
+Creating a new folder which contains both frontend and backend of app.
+
+Create high level readme file which basically describe the functionality of our app.
+
+Make new folder for backend init npm here, install express and jwt here, write express boilerplate code inside index.js file.
+
