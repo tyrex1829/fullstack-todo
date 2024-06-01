@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 
-import { todo } from "./db";
-import { createTodo, updateTodo } from "./types";
+const { createTodo, updateTodo } = require("./types");
+const { todo } = require("./db");
 
 const port = 3000;
 

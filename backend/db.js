@@ -7,7 +7,7 @@ mongoose.connect("mongodb+srv://tyrex:pass1829@cluster0.znn3qjq.mongodb.net/");
 const todoSchema = mongoose.Schema({
   title: String,
   description: String,
-  completed: boolean,
+  completed: Boolean,
 });
 
 // model
