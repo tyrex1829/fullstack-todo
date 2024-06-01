@@ -4,4 +4,7 @@ Create high level readme file which basically describe the functionality of our 
 
 Make new folder for backend init npm here, install express and jwt here, write express boilerplate code inside index.js file with express.json middleware.
 
-Ideally next step will be zod for validation. For this, i zod, make zod schema and parse it using try catch, and export it
+Ideally next step will be zod for validation. For this, i zod, make zod schema, do this in different file and export it.
+
+import that zod file in index.js and complete post and put method, for post method -> we have to create payload, parse it, if success put it into mongoDb, if not return msg. for put method -> we have to update payload, parse the updated one, if success update into mongoDb, if not return msg.
+
