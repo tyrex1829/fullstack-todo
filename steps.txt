@@ -8,3 +8,6 @@ Ideally next step will be zod for validation. For this, i zod, make zod schema, 
 
 import that zod file in index.js and complete post and put method, for post method -> we have to create payload, parse it, if success put it into mongoDb, if not return msg. for put method -> we have to update payload, parse the updated one, if success update into mongoDb, if not return msg.
 
+Until now, 2 things are done -> 1. creating a http server, 2. done with validation.
+
+Last thing which is left is -> Creating a mongoDB schema, if inputs are correct, 1. putting something on mongoDB, 2. updating something on mongoDB, 3. getting all the todos from mongoDB.
