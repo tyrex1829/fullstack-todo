@@ -18,3 +18,8 @@ Import it into index.js, now in post(which basically create todo), will do todo.
 
 Test your backend on postman.
 
+Now for frontend, use react. create vite. and do required stuff.
+
+Make component folder, Create new component -> CreateTodo.jsx.
+
+It will have two input fields and an button to add a todo.
