@@ -11,3 +11,6 @@ import that zod file in index.js and complete post and put method, for post meth
 Until now, 2 things are done -> 1. creating a http server, 2. done with validation.
 
 Last thing which is left is -> Creating a mongoDB schema, if inputs are correct, 1. putting something on mongoDB, 2. updating something on mongoDB, 3. getting all the todos from mongoDB.
+
+For mongoDB, i mongoose, require it, connect with connection string, make schema and the make a model. All this done in separate file, just export it.
+
