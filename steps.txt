@@ -14,3 +14,4 @@ Last thing which is left is -> Creating a mongoDB schema, if inputs are correct,
 
 For mongoDB, i mongoose, require it, connect with connection string, make schema and the make a model. All this done in separate file, just export it.
 
+Import it into index.js, now in post(which basically create todo), will do todo.create({...}) and then just do res.json. Now in get(which basically get all todos), will todo.find({}) and just do res.json(). Now in put(which will basically mark todo as completed), will do todo.update({id}, {completed: true}) and then just do res.json. All these are await.
