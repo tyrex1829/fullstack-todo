@@ -5,10 +5,10 @@ const port = 3000;
 
 app.use(express.json());
 
-app.post("/todos", (req, res) => {});
+app.post("/todo", (req, res) => {});
 
-app.get("/todos", (req, res) => {
-  res.send("Hello Worldd");
+app.get("/todo", (req, res) => {
+  res.send("My TODO");
 });
 
 app.put("/completed", (req, res) => {});
