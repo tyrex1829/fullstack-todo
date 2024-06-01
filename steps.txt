@@ -22,4 +22,7 @@ Now for frontend, use react. create vite. and do required stuff.
 
 Make component folder, Create new component -> CreateTodo.jsx.
 
-It will have two input fields and an button to add a todo.
+It will have two input fields and an button to add a todo. Export it.
+
+Import it on app.jsx, return <CreateTodo />. This will show us to add new todo. Now we need to render all of our previous todos. Make new component.
+
