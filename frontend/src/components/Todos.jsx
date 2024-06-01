@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 /* todos = [
     {title: ""},
     {desc: ""}
@@ -7,7 +5,6 @@ import { useState } from "react";
 */
 
 export function Todos({ todos }) {
-  const [] = useState();
   return (
     <div>
       {todos.map((todo) => (
