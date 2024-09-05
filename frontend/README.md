@@ -1,1 +1,1 @@
-- Frontend of our app.
+Frontend of our app.
